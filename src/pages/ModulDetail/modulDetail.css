@@ -1,0 +1,261 @@
+.contentDetailModul{
+    width: 87%;
+    margin: auto;
+}
+.headGandTitre{
+width: 80%;
+margin-left: 10%;
+}
+.titleGrandHead{
+    margin-left: 10px;
+}
+.contentModule{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+.blocleft h6{
+    
+    font-size: 19px;
+    line-height: 23px;
+    padding-right: 4px;
+    padding-left: 12px;
+    padding-top: 3px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 700;
+}
+.blocDetailFormation{
+    box-shadow:7px 7px 8px rgba(0,0,0,0.5);
+  border-width:0px;
+  border-color:transparent;
+  background-color:#FAFAFA;
+    width:300px;
+  margin:30px;
+ 
+  padding-top: 10px; 
+    padding-bottom: 10px;
+}
+.blocDetailFormation h3{
+    font-size: 19px;
+    line-height: 23px;
+    padding-right: 4px;
+    padding-left: 12px;
+    padding-top: 3px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 400;
+}
+.blocDetailFormation h2{
+    margin-left: 10px;
+    font-family: arimo, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    font-weight: 700;
+}
+
+.blocrightModul{
+    float: right;
+    padding-left: 5%; 
+    flex: 1;
+}
+
+ .left {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.right {
+    text-align: center;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.headGandTitre h1{
+  
+    font-size: 50px;
+    font-family: advent-pro, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #231ab4;
+    position: relative;
+} 
+.blocleftModul{
+    margin-top: 40px;
+    flex: 2;
+} 
+.blocleftModul h6{
+    margin-top: 13px;
+    margin-left: 25px;
+    font-size: 18px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 400;
+}
+.blocleftModul ul li{
+    margin-top: 3px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 400;
+}
+.blocleftModul h2{
+    text-decoration: underline;
+}
+.blocleftModul ul{
+    margin-left: 48px;
+    list-style: disc;
+}
+.blocleftModul h5{
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom:4px ;
+    font-family: advent-pro, sans-serif;
+    font-weight: 600;
+}
+.Contact{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #231ab4;
+    color: white;
+    
+
+}
+.Contact h4{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: advent-pro, sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+.contentModel3{
+    margin: auto;
+    width: 95%;
+}
+.headTitreModel3{
+    width: 80%;
+    height: 30px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.headTitreModel3 img{
+    float: left;
+}
+.headTitreModel3 h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+     color:#a90dcf;
+}
+
+p{
+    padding-left: 41%;
+ 
+}
+
+.blocright{
+    flex: 1;
+}
+.Buttonaide{
+    width:300px;
+    margin:30px;
+
+    height: 50px;
+    background-color: #231ab4;
+} 
+.Buttonaide a{
+    font-size: 18px;
+    margin-left: -50px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 700;
+    color: #FAFAFA;
+}
+.SmallButtonaide{
+    display: none;
+}
+.imageTitre{
+    width: 150px;
+}
+#buttonaide{
+    margin-left: 13%;
+}
+.aidebutton{
+    margin-left: 30px;
+}
+.aidebutton a{
+    font-size: 17px;
+    line-height: 1.5em;
+    padding: 30px;
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+.bloccContact{
+    width: 410px;
+    background-color: #231ab4;
+    margin: auto;
+    margin-top: 50px;
+    height: 130px;
+    text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+    margin-bottom: 300px;
+} 
+.bloccContact h5 {
+    color: white;
+    font-size: 30px;
+}
+
+.bloccContact a{
+
+    color: rgb(213, 210, 210);
+    font-size: 30px;
+}
+
+.ListTwo ul{
+    list-style-type: circle;
+    margin-left: 5%;
+}
+.SmallblocrightModul{
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .content{
+        width: 100%;
+    }
+
+
+
+.ListTwo ul{
+    list-style-type: circle;
+    margin-left: 10%;
+}
+.left{
+    display: none;
+}
+.blocrightModul{
+    display: none;
+}
+.SmallblocrightModul{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: auto;
+      margin-bottom: 40px;
+      width: 90%;
+} 
+
+.headGandTitre h1{
+  
+    font-size: 40px;
+}
+
+}

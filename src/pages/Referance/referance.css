@@ -1,0 +1,17 @@
+.contentReferance{
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+    width: 78%;
+    flex-wrap: wrap;
+    padding:0.5rem 0;
+    padding-left: 1rem;
+    margin: auto;
+}
+.contentReferance img{ 
+    width:85%;
+  height: 80%;
+  margin:40px 50px 30px 40px;
+  padding-top: auto; 
+}

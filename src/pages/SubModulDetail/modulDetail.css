@@ -1,0 +1,98 @@
+.content{
+    width: 80%;
+    margin: auto;
+}
+.contentModule{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+
+.blocleft{
+    margin-left: 0px;
+    flex: 2;
+} 
+.blocleft p{
+    margin: 0px;
+}
+.blocleft h2{
+    text-decoration: underline;
+}
+.contacts{
+    width: 70%;
+    margin: auto;
+    padding: auto;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #231ab4;
+    color: white;
+    
+
+}
+.contacts a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    padding-left: 45%;
+
+}
+
+p{
+    padding-left: 41%;
+ 
+}
+
+.blocright{
+    flex: 1;
+}
+.aidebutton{
+    width: 250px;
+    height: 30px;
+    margin-left: 4%;
+    background-color: #231ab4;
+} 
+.imageTitre{
+    width: 150px;
+}
+#buttonaide{
+    margin-left: 13%;
+}
+.aidebutton a{
+    font-size: 17px;
+    line-height: 1.5em;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.blocleft ul{
+    margin-left: 25px;
+    list-style: disc;
+}
+
+
+.ListTwo ul{
+    list-style-type: circle;
+    margin-left: 5%;
+}
+@media screen and (max-width: 960px) {
+    .content{
+        width: 100%;
+    }
+.aidebutton{
+    margin-right: 25px;
+}
+
+
+.ListTwo ul{
+    list-style-type: circle;
+    margin-left: 10%;
+}
+
+    
+
+}

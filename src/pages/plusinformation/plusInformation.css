@@ -1,0 +1,104 @@
+.contentPlusInfo{
+  margin: auto;
+  width: 85%;
+}
+
+.divtitre{
+    background: rgb(209, 227, 240);
+    color: #231ab4;
+    margin: 5px;
+    font-size: 24px;
+}
+.blocOne{
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+.blocleft{
+  margin-top: 40px;
+flex: 2;
+width: 95%;
+}
+.blocright{
+  flex: 1;
+}
+.headTitre{
+  width: 80%;
+  margin-right: 2%;
+  margin-top: 20px;
+}
+.titleHead{
+  margin-top: 30px;
+}
+.headTitre img{
+  float:left;
+
+
+}
+.headTitre h1{
+  text-align: center;
+    font-size: 45px;
+    margin-left: 10%;
+    font-weight: bold;
+     color:#a90dcf;
+  
+}
+h5{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.blocleft li {
+  margin-left: 28px; 
+margin-top: 3px;
+  font-size: 20px;
+  font: 1em sans-serif;
+}
+.boxleft p {
+  width: 70%;
+}
+.blocleft h6{
+  margin-left: 28px;
+
+  font-size: 20px;
+  font: 1em sans-serif;
+} 
+.aButton{
+    margin-left: auto;
+    margin-top: 20px;
+    width: 270px;
+    height: 30px;
+    background-color:#000295  ;
+  }
+  .aButton a{
+      padding-left: 35px;
+      font-size: 20px;
+      padding-top: 50px;
+      color: #fff;
+  
+  }
+  .blocleft ul{
+    width: 80%;
+    list-style: disc;
+  }
+
+  #prix{
+    background: rgb(209, 227, 240);
+
+  }
+
+  .titresouligne{
+    text-decoration: underline;
+    padding-top: 20px;
+    text-align: center;
+color: #231ab4; 
+    
+  } 
+  @media screen and (max-width: 960px) {
+.contentPlusInfo{
+  width: 100%;
+}
+.headTitre{
+  width: 95%;
+}
+  }

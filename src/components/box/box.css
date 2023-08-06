@@ -1,0 +1,44 @@
+.boxforme{
+  box-shadow:7px 7px 8px rgba(0,0,0,0.5);
+  border-width:0px;
+  border-color:transparent;
+  background-color:#FFFFFF;
+  padding-bottom:24px;
+  position:relative;
+  flex-direction: column;
+   width:310px;
+  height: 300px;
+ margin-right: 4%;
+ margin-left: 4%;
+ margin-top: 35px;
+  padding-top: auto; 
+
+
+  }
+ .divUn{
+  flex: 1;
+  height: 70px;
+ }
+.divDeux{
+  flex: 1;
+
+}
+
+  .boxforme h2{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    padding: 7px;
+    color:#6b66b5;
+
+  }
+  .boxforme img{
+    margin-left:20%;
+    margin-top: 15px;
+   
+  }
+  .boxforme a{
+    text-decoration : none;
+  }
+
+ 

@@ -1,0 +1,90 @@
+.grandImg{
+    width: 40%;
+    height: 30%;
+    margin-top: 30px;
+    margin:auto;
+}
+.Detailactualite{
+    width: 90%;
+    margin: auto;
+}
+.Detailactualite img{ 
+    margin-left:14%; }
+
+.Granddiv{
+    width: 60%;
+   margin: auto;
+   margin-top: 14%;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+} 
+.blocDeuxDetail{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+}
+.grandImgDetail {
+    width: 80%;
+    height: 40%;
+    margin-top: -20%;
+    right: 50px;
+} 
+.actualite{
+    width: 95%;
+ margin: auto;
+
+}
+
+.divSlide img{
+    width: 80%;
+    height: 30%;
+    padding: auto;
+
+}
+.containerActual{
+    display: flex;
+    align-items: center;
+    width: 98%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.Granddiv h1{
+    padding: 30px;
+}
+.Granddiv h4{
+    margin-left: 50px;
+}
+.Granddiv h6{
+    font-weight: 500	;
+   line-height: 1.5;
+   margin-top: 3px;
+ 
+   font-family: Georgia, sans-serif;
+   font-size: 17px;
+
+   white-space:pre-wrap;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+.Granddiv h3{
+    margin-left: 40px;
+}
+.Granddiv img{
+margin-top: -20%;
+width: 80%;
+height: 70%;
+}
+.Granddiv h2{
+    font-size: 28px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+
+
+
+
+}

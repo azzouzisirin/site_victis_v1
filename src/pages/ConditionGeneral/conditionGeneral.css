@@ -1,0 +1,169 @@
+.contentFinance{
+    margin: auto;
+    width: 80%;
+}
+
+.contentFinance h6{
+    margin: auto;
+    line-height: 5px;
+  width: 91%;  
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 4px;
+
+  padding-top: 3px;
+  font-family: advent-pro, sans-serif;
+  font-weight: 400;
+}
+.contentFinance h6 span{
+   
+  font-weight: 700;
+}
+
+.divHead  h3{
+    width: 75%;
+
+    margin: auto;
+    line-height: 5px;
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 4px;
+
+  padding-top: 3px;
+  font-family: advent-pro, sans-serif;
+  font-weight: 400;
+}
+.contentFinance h5{
+
+    background: rgb(209, 227, 240);
+    color: #231ab4;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+.contentFinance h2{
+    margin: auto;
+    line-height: 5px;
+  width: 93%;  
+  font-size: 23px;
+
+  font-weight: bold;
+    font:  sans-serif;
+}
+
+
+.contentFinance li {
+    margin: auto;
+    line-height: 5px;
+  width: 91%;  
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 4px;
+
+  padding-top: 3px;
+  font-family: advent-pro, sans-serif;
+  font-weight: 700;
+}
+.contentFinance h4{
+    margin: auto;
+    line-height: 5px;
+  width: 97%;  
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 4px;
+
+  padding-top: 3px;
+  font-family: advent-pro, sans-serif;
+  font-weight: 400;
+}
+.ulDeux{
+    list-style-type: none;
+}
+.ulDeux li{
+    margin: auto;
+    line-height: 5px;
+  width: 97%;  
+  font-size: 18px;
+  line-height: 23px;
+  padding-right: 4px;
+
+  padding-top: 3px;
+  font-family: advent-pro, sans-serif;
+  font-weight: 400;
+}
+.bloctow{
+    background-color: #e5e4ef;
+    width: 60%;
+    margin: auto;
+}
+.divthre{
+    width: 95%;
+    margin: auto;
+}
+.divthre ul li{
+    text-decoration-line: none;
+
+}
+.ulList ul{
+    width: 95%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.ulList ul li{
+    font-size: 18px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 400;
+}
+.ulListTwo ul{
+    width: 85%;
+    list-style: circle;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.ulListTwo ul li{
+    font-size: 18px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 400;
+}
+.contentFinance a{
+    width: 93%;
+    margin: auto;
+  
+    line-height: 23px;
+    padding-right: 4px;
+  
+    padding-top: 3px;
+    font-size: 18px;
+    font-family: advent-pro, sans-serif;
+    font-weight: 400;
+}
+.blocDern{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 700px;
+}
+.boxbloc{
+   margin-top: 0px;
+    position:relative;
+    flex-direction: column;
+     width:40%;
+  
+    padding-top: auto; 
+}
+.blocDern button{
+    background: #231ab4;
+    border: #e5e4ef;
+    color: #e5e4ef;
+    font-size: 24px;
+    margin-left: 10%;
+    width: 150px;
+    height: 40px;
+}
+
+@media screen and (max-width: 960px) {
+.contentFinance{
+    width: 95%;
+}
+}

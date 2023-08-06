@@ -1,0 +1,168 @@
+.Container {
+display: flex;
+background: rgb(209, 227, 240);
+color: #231ab4;
+}
+.ContainerFooter {
+    display: flex;
+    background: rgb(209, 227, 240);
+    color: #231ab4;
+ }
+
+.Container h5 {
+    font-family: arimo, sans-serif;
+    font-weight: 400;
+    width: 75%;
+line-height: 38px;    
+
+}
+.ContainerFooter h5 {
+    font-family: arimo, sans-serif;
+    font-weight: 400;
+    width: 75%;
+line-height: 38px;    
+
+}
+.List h5 {
+   
+line-height: 50px;    
+
+}
+a{
+    line-height: 20px;
+    color: #231ab4;
+
+    font-family: arimo, sans-serif;
+    font-weight: 400;
+      padding: 10px 40px 10px 20px;
+
+}
+.Left {
+flex: 1;
+
+}
+
+.Left h5{
+    width: 70%;
+}
+
+.Logo{
+width: 150px;
+margin-left:-25px ;
+margin-top:-25px ;
+}
+.divlogo{
+    display: block;
+    height: 70px;
+}
+.leftDiv {
+    display: table-cell;
+    vertical-align: middle;
+ 
+}
+.rightDiv {
+
+    display: table-cell;
+    vertical-align: middle;
+}
+.rightDiv .Title{
+    margin-left:-15px ;
+    margin-top: -14px;
+
+}
+
+.SocialContainer{
+display: flex;
+margin-left: 7%;
+}
+
+.SocialIcon {
+width: 60px;
+height: 60px;
+border-radius: 50%;
+size: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 30px;
+}
+
+.Center{
+flex: 1;
+margin-left: 8%;
+
+}
+.CenterUn{
+    flex: 1;
+    
+    }
+    .CenterDeux{
+        flex: 1;
+        
+        }
+.Title {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.List li{
+
+list-style: none;
+
+}
+.List {
+    padding: 0px;
+}
+
+.divtitre {
+    color: #231ab4;
+     font-size: 18px;
+     line-height: 1.5em;
+
+    font-family: arimo, sans-serif;
+    font-weight: 400;
+}
+.divtitre a {
+    color: #231ab4;
+     font-size: 18px;
+     line-height: 1.5em;
+
+    font-family: arimo, sans-serif;
+    font-weight: 400;
+}
+
+.Right {
+flex: 1;
+
+}
+
+.ContactItem{
+display: flex;
+align-items: center;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+    .Container {
+        display: flex;
+        padding: auto;
+        flex-direction:column;
+    }
+    .ContainerFooter {
+        display: flex;
+        padding: auto;
+        flex-direction:column;
+    }
+    .Center{
+      
+margin-left: 1%;        }
+.Right{
+      
+    margin-left: 1%;        }
+
+}

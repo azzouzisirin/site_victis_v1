@@ -1,0 +1,192 @@
+.navbar_Home {
+  background: rgb(209, 227, 240);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.navbar-logo {
+  color: #fff;
+  flex:1;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.victim_logo{
+width: 100px;
+margin-top: -10px;
+}
+.MenuList-1{
+  margin-top: -10px;
+  background-color: rgb(198, 154, 154);
+  width: 50px;
+  font-size: 1rem;
+  padding: auto;
+  border: none;
+height: 40px;
+  
+}
+.MenuList-2{
+  margin-top: 1px;
+  background-color: rgb(198, 154, 154);
+  border: #fff;
+  width: 40px;
+  font-size: 1rem;
+
+  height: 40px;
+
+
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 90vw;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+width: 130px;
+  height: 50px;
+}
+
+.nav-links {
+  color: #231ab4;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+font-size: 20px;
+width: 600;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-links:hover {
+  background-color: #fff;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #231ab4;
+}
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icone {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+  .NavbarItems {
+    position: relative;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    margin-top: 0px;
+    top: 70px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: rgb(209, 227, 240);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .victim_logo{
+    position: absolute;
+    top: 0;
+    left: 0;  
+  width: 80px;  }
+  .nav-links {
+    margin-top: 0px;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  .nav-item {
+    width: 100%;
+ margin-top: 5px;
+    height: 90px;
+  }
+
+  .nav-links:hover {
+    background-color: #fff;
+    border-radius: 0;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icone {
+    display: block;
+    position: absolute;
+    top: -7px;
+    right: 0;
+    padding-top: -20px;
+    transform: translate(-100%, 60%);
+    font-size: 2.3rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #231ab4;
+    font-size: 2rem;
+  }
+
+  .nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #fff;
+    text-decoration: none;
+    color: #231ab4;
+    font-size: 1.5rem;
+  }
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #6610a8;
+    transition: 250ms;
+  }
+
+  button {
+    display: none;
+  }
+} 
